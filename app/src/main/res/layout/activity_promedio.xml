@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--    Copyright (C) 2018  Nicole Astorga
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".promedio">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:gravity="center"
+        android:text="Ingresar Notas"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/et_epr1"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingrese EPR1"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_epe1"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingrese EPE1"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_epr2"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingrese EPR2"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_epe2"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingrese EPE2"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_eva1"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingrese EVA1"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_eva2"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingrese EVA2"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_eva3"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingrese EVA3"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_eva4"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingrese EVA4"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btn_calcular"
+        android:layout_width="212dp"
+        android:layout_height="60dp"
+        android:onClick="promediar"
+        android:text="CALCULAR PROMEDIO" />
+
+    <EditText
+        android:id="@+id/et_resultado"
+        android:layout_width="283dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+</LinearLayout>
